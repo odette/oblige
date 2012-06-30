@@ -43,7 +43,7 @@ public class ApplicationHolder {
 	 */
 	public static void set(final Application application) {
 		if (application == null) {
-			throw new HolderException(ApplicationHolder.class.getName() + ": args ia null.");
+			throw new HolderException(ApplicationHolder.class.getName() + ": args is null.");
 		}
 		if (holder.containsKey(KEY)) {
 			throw new HolderException(ApplicationHolder.class.getName() + ": VALUE is alerdy exist.");
