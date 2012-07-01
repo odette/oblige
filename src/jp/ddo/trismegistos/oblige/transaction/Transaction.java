@@ -1,7 +1,7 @@
 package jp.ddo.trismegistos.oblige.transaction;
 
 /**
- * トランザクションの抽象クラス。
+ * トランザクションの抽象クラス.
  * 
  * @author y_sugasawa
  * @since 2012/06/27
@@ -9,7 +9,7 @@ package jp.ddo.trismegistos.oblige.transaction;
 public interface Transaction {
 
 	/**
-	 * トランザクションを開始する。
+	 * トランザクションを開始する.
 	 */
 	public void begin();
 }

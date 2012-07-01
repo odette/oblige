@@ -1,7 +1,7 @@
 package jp.ddo.trismegistos.oblige.controller;
 
 /**
- * ルーティング情報を集約するクラスの基底クラス。
+ * ルーティング情報を集約するクラスの基底クラス.
  * 
  * @author y_sugasawa
  * @since 2012/07/01

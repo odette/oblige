@@ -5,7 +5,7 @@ import android.app.Application;
 import android.util.Log;
 
 /**
- * Applicationの基底クラス。
+ * Applicationの基底クラス.
  * 
  * @author y_sugasawa
  * @since 2012/07/01
@@ -13,7 +13,7 @@ import android.util.Log;
 public class BaseApplication extends Application {
 
 	/** タグ */
-	private static final String TAG = "BAseAppication";
+	private static final String TAG = "BaseAppication";
 
 	/**
 	 * {@inheritDoc}

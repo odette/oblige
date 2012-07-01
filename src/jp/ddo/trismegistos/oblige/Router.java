@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 
 /**
- * アクティビティを実行するクラス。
+ * アクティビティを実行するクラス.
  * 
  * @author y_sugasawa
  * @since 2012/06/27
@@ -12,7 +12,7 @@ import android.content.Intent;
 public class Router {
 
 	/**
-	 * アクティビティを実行する。
+	 * アクティビティを実行する.
 	 * 
 	 * @param fromActivity 遷移元アクティビティ
 	 * @param toActivity 遷移先アクティビティ
@@ -23,7 +23,7 @@ public class Router {
 	}
 
 	/**
-	 * アクティビティを起動モード付きで実行する。
+	 * アクティビティを起動モード付きで実行する.
 	 * 
 	 * @param fromActivity 遷移元アクティビティ
 	 * @param toActivity 遷移先アクティビティ
@@ -38,8 +38,8 @@ public class Router {
 	}
 
 	/**
-	 * アクティビティを実行する。<br>
-	 * 実行後に遷移元サクティビティを終了する。
+	 * アクティビティを実行する.<br>
+	 * 実行後に遷移元サクティビティを終了する.
 	 * 
 	 * @param fromActivity 遷移元アクティビティ
 	 * @param toActivity 遷移先アクティビティ
@@ -51,8 +51,8 @@ public class Router {
 	}
 
 	/**
-	 * アクティビティを実行する。<br>
-	 * 遷移先から情報を受け取って処理を戻す場合はこれを使用する。
+	 * アクティビティを実行する.<br>
+	 * 遷移先から情報を受け取って処理を戻す場合はこれを使用する.
 	 * 
 	 * @param fromActivity 遷移元アクティビティ
 	 * @param toActivity 遷移先アクティビティ
@@ -65,7 +65,7 @@ public class Router {
 	}
 
 	/**
-	 * インテントを作成する。
+	 * インテントを作成する.
 	 * 
 	 * @param fromActivity 遷移元アクティビティ
 	 * @param toActivity 遷移先アクティビティ

@@ -8,7 +8,7 @@ import android.app.ProgressDialog;
 import android.util.Log;
 
 /**
- * Activityに関するUtilメソッドの集合クラス。
+ * Activityに関するUtilメソッドの集合クラス.
  * 
  * @author y_sugasawa
  * @since 2012/07/01
@@ -19,7 +19,7 @@ public class ActivityUtil {
 	private static final String TAG = "ActivityUtil";
 
 	/**
-	 * Activity名からレイアウトIDを取得し、Activityに設定する。<br>
+	 * Activity名からレイアウトIDを取得し、Activityに設定する.<br>
 	 * (例) DbInitActivity → db_init.xml
 	 * 
 	 * @param activity アクティビティ
@@ -50,7 +50,7 @@ public class ActivityUtil {
 		}
 
 		final String xmlName = sb.toString();
-		Log.d(TAG, "XML fielName is " + xmlName);
+		Log.d(TAG, "ActivityName is " + activityName + ". XML fielName is " + xmlName + ".");
 
 		final int xmlId = activity.getResources().getIdentifier(xmlName, "layout", activity.getPackageName());
 		activity.setContentView(xmlId);

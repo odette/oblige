@@ -1,7 +1,7 @@
 package jp.ddo.trismegistos.oblige.holder.exception;
 
 /**
- * Holderクラスで発生するException。
+ * Holderクラスで発生するException.
  * 
  * @author y_sugasawa
  * @since 2012/06/28
@@ -12,14 +12,14 @@ public class HolderException extends RuntimeException {
 	private static final long serialVersionUID = 1L;
 
 	/**
-	 * コンストラクタ。
+	 * コンストラクタ.
 	 */
 	public HolderException() {
 		super();
 	}
 
 	/**
-	 * コンストラクタ。
+	 * コンストラクタ.
 	 * 
 	 * @param message メッセージ
 	 */
@@ -28,7 +28,7 @@ public class HolderException extends RuntimeException {
 	}
 
 	/**
-	 * コンストラクタ。
+	 * コンストラクタ.
 	 * 
 	 * @param message メッセージ
 	 * @param cause 原因
@@ -38,7 +38,7 @@ public class HolderException extends RuntimeException {
 	}
 
 	/**
-	 * コンストラクタ。
+	 * コンストラクタ.
 	 * 
 	 * @param cause 原因
 	 */

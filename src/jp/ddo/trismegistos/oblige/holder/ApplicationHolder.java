@@ -7,7 +7,7 @@ import jp.ddo.trismegistos.oblige.holder.exception.HolderException;
 import android.app.Application;
 
 /**
- * アプリケーションを保持するクラス。
+ * アプリケーションを保持するクラス.
  * 
  * @author y_sugasawa
  * @since 2012/06/28
@@ -21,7 +21,7 @@ public class ApplicationHolder {
 	private static final Map<String, Application> holder = new ConcurrentHashMap<String, Application>();
 
 	/**
-	 * アプリケーションを取得する。
+	 * アプリケーションを取得する.
 	 * 
 	 * @return アプリケーション
 	 */
@@ -37,7 +37,7 @@ public class ApplicationHolder {
 	}
 
 	/**
-	 * アプリケーションを設定する。
+	 * アプリケーションを設定する.
 	 * 
 	 * @param application アプリケーション
 	 */

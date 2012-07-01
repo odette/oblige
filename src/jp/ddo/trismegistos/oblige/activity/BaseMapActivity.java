@@ -6,7 +6,7 @@ import android.os.Bundle;
 import com.google.android.maps.MapActivity;
 
 /**
- * MapActivityの基底クラス。
+ * MapActivityの基底クラス.
  * 
  * @author y_sugasawa
  * @since 2012/07/01
@@ -17,7 +17,7 @@ public class BaseMapActivity extends MapActivity {
 	protected ActivityUtil acu = new ActivityUtil();
 
 	/**
-	 * 基底処理の他にレイアウトIDの設定を行う。<br>
+	 * 基底処理の他にレイアウトIDの設定を行う.<br>
 	 * {@inheritDoc}
 	 */
 	@Override
