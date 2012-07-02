@@ -18,7 +18,7 @@ public class Router {
 	 * @param toActivity 遷移先アクティビティ
 	 * @param src インテント
 	 */
-	public static void go(final Activity fromActivity, final Class<Activity> toActivity, final Intent src) {
+	public static void go(final Activity fromActivity, final Class<? extends Activity> toActivity, final Intent src) {
 		fromActivity.startActivity(getIntent(fromActivity, toActivity, src));
 	}
 
@@ -30,7 +30,7 @@ public class Router {
 	 * @param src インテント
 	 * @param flags 起動モード
 	 */
-	public static void go(final Activity fromActivity, final Class<Activity> toActivity, final Intent src,
+	public static void go(final Activity fromActivity, final Class<? extends Activity> toActivity, final Intent src,
 			final int flags) {
 		final Intent intent = getIntent(fromActivity, toActivity, src);
 		intent.setFlags(flags);
@@ -45,7 +45,8 @@ public class Router {
 	 * @param toActivity 遷移先アクティビティ
 	 * @param src インテント
 	 */
-	public static void goAfterEnd(final Activity fromActivity, final Class<Activity> toActivity, final Intent src) {
+	public static void goAfterEnd(final Activity fromActivity, final Class<? extends Activity> toActivity,
+			final Intent src) {
 		go(fromActivity, toActivity, src);
 		fromActivity.finish();
 	}
@@ -59,8 +60,8 @@ public class Router {
 	 * @param src インテント
 	 * @param requestCode リクエストコード
 	 */
-	public static void goForResult(final Activity fromActivity, final Class<Activity> toActivity, final Intent src,
-			final int requestCode) {
+	public static void goForResult(final Activity fromActivity, final Class<? extends Activity> toActivity,
+			final Intent src, final int requestCode) {
 		fromActivity.startActivityForResult(getIntent(fromActivity, toActivity, src), requestCode);
 	}
 
@@ -72,7 +73,8 @@ public class Router {
 	 * @param src インテント
 	 * @return インテント
 	 */
-	private static Intent getIntent(final Activity fromActivity, final Class<Activity> toActivity, final Intent src) {
+	private static Intent getIntent(final Activity fromActivity, final Class<? extends Activity> toActivity,
+			final Intent src) {
 		final Intent intent = new Intent(fromActivity, toActivity);
 		intent.putExtras(src);
 
